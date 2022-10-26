@@ -1,0 +1,41 @@
+body {
+  background-color: #eaf6f6;
+}
+
+.header-container {
+  display: flex;
+}
+
+.image-container,
+.bio-container {
+  padding: 1.25rem;
+}
+
+hr {
+  border: none;
+  border-bottom: 5px dotted lightgray;
+  width: 3.5%;
+}
+
+h1,
+h3 {
+  color: #66bfbf;
+}
+
+@media (max-width: 870px) {
+  body {
+    text-align: center;
+  }
+
+  .header-container {
+    display: block;
+  }
+
+  .center {
+    text-align: center;
+  }
+
+  .no-center {
+    text-align: left;
+  }
+}
